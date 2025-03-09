@@ -58,6 +58,11 @@
             border-bottom: 2px solid #e6e6e6; 
         }
         
+        .title { /*Available Vehicles*/
+            text-align: center;
+            padding: 25px;
+            margin: 50px 0 0 0;
+        }
         .card-container {
             padding: 50px 0;
         }
@@ -102,4 +107,32 @@
                 padding: 3px;
                 min-height: 100%;
             }
+        }
+
+        .overlay .btn {
+            background-color: transparent;
+            border: transparent;
+            font-weight: 700;
+        }
+        .overlay .btn:active {
+            background-color: rgb(206, 206, 206);  /* Change to your preferred color */
+            color: white;
+        }
+
+        #car-Modal h2,h4,h3,p {
+            margin: 0 50px 20px 50px;
+        }
+
+        #car-Modal h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 30px;
+            margin-bottom: 20px;
+        }
+
+        #car-Modal h3 {
+            margin-top: 50px;
+        }
+        #car-Modal p {
+            font-size: 15px;
+            
         }

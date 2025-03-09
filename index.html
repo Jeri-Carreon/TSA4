@@ -8,20 +8,20 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    
     </style>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
-                <img src="Assets/logo-removebg-preview.png" alt="Karrera Showroom" class="logo">
+                <img src="Assets/logo-removebg-preview.png" class="logo">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-link">Home</a>
                     <a class="nav-link active" aria-current="page" href="#">Vehicles</a>
                     <a class="nav-link" href="#">About Us</a>
                     <a class="nav-link" href="#">Contact Us</a>
@@ -30,6 +30,7 @@
             </div>
         </nav>
 
+    <h1 class="title">Available Vehicles</h1>
     <div class="container">
         <div class="card-container">
             <div class="row d-flex justify-content-center row-cols-1 row-cols-md-2 g-5">
@@ -39,7 +40,16 @@
                             <img src="Assets/Cars/1963-Corvette-Grand-Sport-004.jpg" class="card-img-top" alt="...">
                             <div class="overlay">
                                 <h5 class="card-title">1963 Chevrolet Corvette Grand Sport #004</h5>
-                                <p class="card-text">Learn More</p>
+                                <button type="button" class="btn btn-primary learn-more-btn" 
+                                    data-title="1963 Chevrolet Corvette Grand Sport #004"
+                                    data-image="Assets/Cars/1963-Corvette-Grand-Sport-004.jpg"
+                                    data-description-title1="Specifications"
+                                    data-description-title-details1="Engine: 6.2-liter V8"
+                                    data-description-title-details2="Horsepower: 485 hp."
+                                    data-description-title-details3="Top Speed: 273 kph"
+                                    data-description-title2="Aluminum Lightweight Fighter"
+                                    data-description="In 1962 Zora Arkus-Duntov began work on a secret project he hoped would result in victory at Sebring and Le Mans, a dedicated lightweight race car in the guise of a C2 Corvette. To skirt GM’s racing ban, 125 cars were planned to be built and sold to private teams. Aluminum was used wherever possible including in the chassis, which was 93 pounds lighter than stock. Bonded to it was a single-layer fiberglass body. After a mere five cars were completed, GM executives learned of the project and shut it down. The Grand Sports were sold and in private hands proved to be formidable racers. This car, chassis 004, was the most successful in competition.">Learn More
+                                </button>
                             </div>
                           </div>
                     </a>
@@ -50,7 +60,16 @@
                             <img src="Assets/Cars/Petersen-Ken-Block-Exhibit-1986-Audi-Sport-Quattro-Replica-Turbo-Monster.jpg" class="card-img-top" alt="...">
                           <div class="overlay">
                             <h5 class="card-title">1986 Audi Sport Quattro Replica “Turbo Monster”</h5>
-                            <p class="card-text">Learn More</p>
+                            <button type="button" class="btn btn-primary learn-more-btn" 
+                                data-title="1986 Audi Sport Quattro Replica “Turbo Monster”"
+                                data-image="Assets/Cars/Petersen-Ken-Block-Exhibit-1986-Audi-Sport-Quattro-Replica-Turbo-Monster.jpg"
+                                data-description-title1="Specifications"
+                                data-description-title-details1="Engine: Turbocharged 2.5-liter inline-5."
+                                data-description-title-details2="Horsepower: 736 hp."
+                                data-description-title-details3="Drivetrain: All-wheel drive"
+                                data-description-title2="Ken Block’s Group B Tribute"
+                                data-description="To commemorate his new partnership with Audi in 2021, Ken Block purchased and upgraded this replica of his all-time favorite rally car, the Audi Sport Quattro. Block chose a copy of the Quattro to avoid modifying and potentially crashing one of the just 224 originals. It was constructed by LCE Performance in Germany using the same technique used in the originals, mating the rear half of an Audi Quattro Coupe with the front half of an Audi Quattro 4000. ">Learn More
+                            </button>
                           </div>
                         </div>
                     </a>
@@ -61,7 +80,21 @@
                             <img src="Assets/Cars/fast-and-furious-honda-s2000.jpg" class="card-img-top" alt="...">
                           <div class="overlay">
                             <h5 class="card-title">2001 Honda S2000 (2 Fast 2 Furious)</h5>
-                            <p class="card-text">Learn More</p>                          </div>
+                            <button type="button" class="btn btn-primary learn-more-btn" 
+                            data-title="2001 Honda S2000"
+                            data-image="Assets/Cars/fast-and-furious-honda-s2000.jpg"
+                            data-description-title1="Specifications"
+                            data-description-title-details1="Engine: 2-liter inline 4-cylinder with DOHC-VTEC (F20C)"
+                            data-description-title-details2="Horsepower: 340 hp."
+                            data-description-title-details3="Transmission: 6-speed manual"
+                            data-description-title2="Suki’s Ride in 2 Fast 2 Furious"
+                            data-description="In 1995, Honda released an exciting concept car at the Tokyo Motor Show, but no one expected the car to actually go into production. However, Honda decided to release the S2000 in 1999 to celebrate the company’s 50th anniversary. The S2000 followed on the backs of Honda’s 1960s roadsters, the S500, S600, and S800, and it was named for its engine displacement of 2,000 cc (2.0L). 
+
+                            The Honda S2000 is a front mid-engine, rear wheel drive car, launched with a 2.0L inline four cylinder DOHC-VTEC engine (codename F20C) producing 237 hp. The S2000 was produced between 1999 to 2009, in two iterations for the US market. The first, named the AP1, was produced from 1999 to 2003. Known for its high-revving nature, the F20C in its Japanese specification making 247 horsepower held the title for highest power to displacement ratio for a naturally aspirated mass-production engine in its time. The car’s renowned handling characteristics can be attributed to a nearly exact 50:50 weight distribution. The AP2, produced from 2004 to 2009, received the F22C1 2.2L inline four producing the same horsepower, with approximately 10 lb-ft additional peak torque nearly 700rpm sooner to satiate the US market tastes, with some revised suspension components and cosmetic changes.
+                            
+                            This Honda S2000 was driven by Johnny Tran in the original Fast and Furious, and by Suki in the second installment, 2 Fast, 2 Furious. For the character Suki, the Honda was repainted a bright pink (it was black in the first film) and given an anime-style airbrush treatment. The film crew reportedly had to hire a professional airbrush artist to retouch the car in between takes – the S2000 appears in a full-contact street race through the streets of Miami at the beginning of the second film, which explains the bangs and scratches on the front bumper. The engine uses a Paxton supercharger that produces around 340 horsepower. To prepare the Honda for the scene in which it goes airborne over a bridge, the roadster was equipped with a special ground effects kit and 18-inch rims.  ">Learn More
+                        </button>                 
+                          </div>
                         </div>
                     </a>
                 </div>
@@ -69,9 +102,20 @@
                     <a href="#" class="overlay-link">
                         <div class="card">
                             <img src="Assets/Cars/delorean-time-machine.jpg" class="card-img-top" alt="...">
-                          <div class="overlay">
+                          <div class="overlay"> 
                             <h5 class="card-title">1981 DeLorean DMC-12 “Time Machine”</h5>
-                                <p class="card-text">Learn More</p>
+                            <button type="button" class="btn btn-primary learn-more-btn" 
+                            data-title="1981 DeLorean DMC-12 “Time Machine"
+                            data-image="Assets/Cars/delorean-time-machine.jpg"
+                            data-description-title1="Specifications"
+                            data-description-title-details1="Designers: Ron Cobb and Andrew Probert"
+                            data-description-title-details2="Builder: Universal Studios"
+                            data-description-title-details3="Movie Appearances: Driven in Back to the Future (1985), Back to the Future II (1989) and Back to the Future III (1990)"
+                            data-description-title2="Back to the Future!"
+                            data-description="The Back to the Future trilogy follows Marty McFly (Michael J. Fox) and Dr. Emmett L. Brown (Christopher Lloyd) as they travel through 130 years of history.  According to “Doc” Brown, inventor of the flux capacitor, the DeLorean provides a perfect base for a time machine since its stainless steel construction allows for greater “flux dispersal.”  The DeLorean underwent a Wilson Hover Conversion in 2015 and is propelled through time and space by a combination of gasoline, plutonium, lightning, garbage and 19th century steam locomotive.
+                            
+                            When director Robert Zemeckis and Robert Gale conceived of the first film, the DeLorean was cast, in part, because the car’s gullwing doors made it look like an alien spaceship.  Over the course of the two sequels, the Time Machine eventually emerged as a character of its own, undergoing progressive transformation due to its time travel experiences.  Three visually distinct DeLoreans were created for the trilogy, however, this is the only example to appear in all three films.">Learn More
+                        </button>
                           </div>
                         </div>
                     </a>
@@ -82,7 +126,16 @@
                             <img src="Assets/Cars/1965-Chevrolet-Impala-Sunset-65.jpg" class="card-img-top" alt="...">
                           <div class="overlay">
                             <h5 class="card-title">1965 Chevrolet Impala “Sunset 65”</h5>
-                                <p class="card-text">Learn More</p>
+                            <button type="button" class="btn btn-primary learn-more-btn" 
+                            data-title="1965 Chevrolet Impala “Sunset 65"
+                            data-image="Assets/Cars/1965-Chevrolet-Impala-Sunset-65.jpg"
+                            data-description-title1="Specifications"
+                            data-description-title-details1="Engine: Inline 6-cylinder"
+                            data-description-title-details2="Horsepower: 150 hp."
+                            data-description-title-details3="Transmission: 4-speed manual"
+                            data-description-title2="Cruisin’ into the Sunset of New Mexico"
+                            data-description="In the 1980s, around the time that California was enacting a “cruising ban” (recently repealed in 2024), New Mexico was embracing lowrider vehicles and culture. Frank Arredondo was inspired by the first generation of lowriders in his Carlsbad, New Mexico, neighborhood. He got his start in the scene by building lowrider motorcycles before purchasing this 1965 Chevrolet Impala as the foundation for his first lowrider car. “Sunset 65” has received numerous Best Paint awards and, in 2021, was named Lowrider magazine's Classic Lowrider of the Year.">Learn More
+                        </button>
                           </div>
                         </div>
                     </a>
@@ -93,7 +146,16 @@
                             <img src="Assets/Cars/2022-Bugatti-Chiron-Pur-Sport.jpg" class="card-img-top" alt="...">
                           <div class="overlay">
                             <h5 class="card-title">2022 Bugatti Chiron Pur Sport</h5>
-                                <p class="card-text">Learn More</p>
+                            <button type="button" class="btn btn-primary learn-more-btn" 
+                            data-title="2022 Bugatti Chiron Pur Sport"
+                            data-image="Assets/Cars/2022-Bugatti-Chiron-Pur-Sport.jpg"
+                            data-description-title1="Specifications"
+                            data-description-title-details1="Engine: Turbocharged 8.0-Liter W16"
+                            data-description-title-details2="Horsepower: 1,479 hp."
+                            data-description-title-details3="Top Speed: 349 kph"
+                            data-description-title2="Pur Hypercar."
+                            data-description="Bugatti debuted the Chiron in 2016 as successor to the Veyron, often considered the world’s first hypercar. Like the Veyron, it has an innovative “W” engine and lightweight carbon-fiber monocoque. Designed by ArtCenter graduate Sasha Selipanov, it blends aggressive aerodynamics with visual accents from the historic Bugatti Type 57SC Atlantic. The Chiron Pur Sport, a more extreme version of the Chiron Sport, enhances its handling with a front splitter, large vents, and X-shaped wing inspired by Starfighter Jets from the Star Wars film series.">Learn More
+                        </button>
                           </div>
                         </div>
                     </a>
@@ -103,6 +165,29 @@
         </div>
     </div>
 </body>
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="car-Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-1" id="modalLabel">Car title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img id="modalImage" src="" class="img-fluid mb-3" alt="Car Image">
+          <h2 id="modalBodyTitle1"></h2>
+          <h4 id="modalBodyTitleDetails1"></h4>
+          <h4 id="modalBodyTitleDetails2"></h4>
+          <h4 id="modalBodyTitleDetails3"></h4>
+          <h3 id="modalBodyTitle2"></h3>
+          <p id="modalBody">Car details here</p>
+        </div>
+      </div>
+    </div>
+  </div>
+<script src="script.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 </html>
